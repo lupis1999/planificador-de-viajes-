@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Viajes</title>
+
+  <!-- Conectar CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>PLANIFICADOR DE VIAJES</h1>
+
+    <!-- Input destino -->
+    <input 
+      type="text" 
+      id="destino" 
+      placeholder="Destino"
+    >
+
+    <!-- Input fecha -->
+    <input 
+      type="date" 
+      id="fecha"
+    >
+
+    <!-- Input costo -->
+    <input 
+      type="number" 
+      id="costo" 
+      placeholder="Costo del viaje"
+    >
+
+    <!-- Botón -->
+    <button id="agregarBtn">
+      Agregar Viaje
+    </button>
+
+    <!-- Lista de viajes -->
+    <div id="listaViajes"></div>
+
+    <!-- Total -->
+    <div class="total" id="total">
+      Total: $0
+    </div>
+
+  </div>
+
+  <!-- Conectar JavaScript -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>
